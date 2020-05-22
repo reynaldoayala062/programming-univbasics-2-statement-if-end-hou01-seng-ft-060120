@@ -1,7 +1,7 @@
 # Write your solution here
-time_select =
-if time_select is Even 
+if Time.now.to_i % 2 == 0 
   puts "Even"
 else
   puts "Odd"
+end
   
